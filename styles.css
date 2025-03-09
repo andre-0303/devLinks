@@ -26,12 +26,12 @@ body {
   background: var(--bg-url) no-repeat top center/cover;
   font-family: "Poppins", sans-serif;
   color: var(--text-color);
-  height: 100vh;
   overflow: hidden;
 }
 
 .container {
-  width: 22.5rem;
+  width: 100%;
+  max-width: 588px;
   padding-top: 56px;
   margin: 56px auto 0px auto;
 }
